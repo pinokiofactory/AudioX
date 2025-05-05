@@ -30,7 +30,6 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "uv pip install https://huggingface.co/lldacing/flash-attention-windows-wheel/resolve/main/flash_attn-2.7.0.post2%2Bcu124torch2.4.1cxx11abiFALSE-cp310-cp310-win_amd64.whl?download=true",
           "uv pip install aeiou",
           "uv pip install -e .",
           "uv pip install pydantic==2.10.6"
