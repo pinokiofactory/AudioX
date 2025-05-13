@@ -18,7 +18,7 @@ module.exports = {
           venv: "env",                // Edit this to customize the venv folder path
           path: "app",                // Edit this to customize the path to start the shell from
           // xformers: true   // uncomment this line if your project requires xformers
-          // triton: true   // uncomment this line if your project requires triton
+          triton: true   // uncomment this line if your project requires triton
           // sageattention: true   // uncomment this line if your project requires sageattention
         }
       }
